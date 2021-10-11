@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<header>
+    <nav class="navbar navbar-light bg-primary">
+        <div class="container-1">
+            <a class="navbar-brand" href="#">
+                <img src="https://cdn.iconscout.com/icon/free/png-256/weather-296-1100758.png" alt="weather logo"
+                    width="30" height="30" class="d-inline-block align-text-top">
+                Weather forecast
+            </a>
+        </div>
+    </nav>
+</header>
+
+<body class="flex-column min-100-vh">
+    <main class="row">
+        <div class="col-12 col-md-4">
+            <div class="card">
+                <label class="card-header text-uppercase">Search for a City</label>
+                <form id="form" class="card-body">
+                    <label class="form-label" for="city">Search:</label>
+                    <br>
+                    <input type="text" id="name" name="name" class="form-input" placeholder="Chicago" required>
+                    <button type="submit" id="submit" class="btn">Search</button>
+                </form>
+            </div>
+            <div class="card">
+                <h2 class="container"><span id="repo-search-term"></span></h2>
+                <div class="city-container list-group"></div>
+            </div>
+        </div>
+        <div class="container-div col-12 col-md-8">
+            <div class="display">
+                <img src="https://cdn.iconscout.com/icon/free/png-256/weather-296-1100758.png" alt="weather logo"
+                    width="30" height="30" class="d-inline-block align-text-top">
+                <h1 id="cityname">
+                    <p id="1a" class="answer"></p>
+                </h1>
+                <p id="temp"></p>
+                <p id="desc"></p>
+            </div>
+        </div>
+        <div>
+            <main class="fiveday">
+                <div class="container-div2">
+                    <div class="display1 hide">
+                        <h1 class="block" id=date>Monday</h1>
+                        <p class="block" id="tempday1"></p>
+                    </div>
+                </div>
+                <div class="container-div2">
+                    <div class="display2 hide">
+                        <h1 class="block" id=date>Teusday</h1>
+                        <p class="block" id="tempday2"></p>
+                    </div>
+                </div>
+                <div class="container-div2">
+                    <div class="display3 hide">
+                        <h1 class="block" id=date>Wednesday</h1>
+                        <p class="block" id="tempday3"></p>
+                    </div>
+                </div>
+                <div class="container-div2">
+                    <div class="display4 hide">
+                        <h1 class="block" id=date>Thursday</h1>
+                        <p class="block" id="tempday4"></p>
+                    </div>
+                </div>
+                <div class="container-div2">
+                    <div class="display5 hide">
+                        <h1 class="block" id=date>Friday</h1>
+                        <p class="block" id="tempday5"></p>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+
+
+</body>
+<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js"
+    integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u"
+    crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</html>

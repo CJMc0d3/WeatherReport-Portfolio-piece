@@ -1,0 +1,88 @@
+* ::before ::after {
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.navbar {
+    justify-content: center;
+    display: flex;
+    color: darkblue;
+}
+
+.container-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.city-container {
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    padding: 15px;
+    padding-left: 20px;
+}
+
+.container-div {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .125rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 0, 0, 1));
+}
+
+.display1 {
+    padding-left: 65px;
+    background-image: radial-gradient( rgba(255, 0, 0, 1), rgba(98, 87, 255, 0));
+    width: 165px;
+}
+
+.display2 {
+    padding-left: 65px;
+    background-image: radial-gradient( rgba(255, 0, 0, 1), rgba(98, 87, 255, 0));
+    width: 165px;
+}
+
+.display3 {
+    padding-left: 65px;
+    background-image: radial-gradient( rgba(255, 0, 0, 1), rgba(98, 87, 255, 0));
+    width: 165px;
+}
+
+.display4 {
+    padding-left: 65px;
+    margin: auto;
+    background-image: radial-gradient( rgba(255, 0, 0, 1), rgba(98, 87, 255, 0));
+    width: 165px;
+}
+
+.display5 {
+    padding-left: 65px;
+    background-image: radial-gradient( rgba(255, 0, 0, 1), rgba(98, 87, 255, 0));
+    width: 225px;
+}
+
+.fiveday {
+    padding: 50px;
+    display: -webkit-box;
+}
+
+.block {
+    font-size: 25px;
+    align-items: left;
+}
+
+.hide {
+    display: none;
+}
